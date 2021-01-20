@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.TEST2</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TEST2</name>
+        <script><![CDATA[var TEST2 = Class.create();
+TEST2.prototype = {
+    initialize: function() {
+    },
+
+    type: 'TEST2'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-20 17:46:07</sys_created_on>
+        <sys_id>6091c242db712010224a2bfa4b9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEST2</sys_name>
+        <sys_package display_value="Test10Global" source="26b0b506dbb5a410c8831461399619b3">26b0b506dbb5a410c8831461399619b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test10Global">26b0b506dbb5a410c8831461399619b3</sys_scope>
+        <sys_update_name>sys_script_include_6091c242db712010224a2bfa4b9619fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 17:46:07</sys_updated_on>
+    </sys_script_include>
+</record_update>
